@@ -1,19 +1,50 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800);
 
 body {
-    font-size: 13px;
-    line-height: 1.5;
-    color: #363F48;
+    font-size: 16px;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Open Sans', sans-serif;
 }
 
+i{
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+    vertical-align: top;
+}
+
+.ico-facebook{
+    background: url('img/social/facebook/facebook-32.png') no-repeat top left rgba(0, 0, 0, 0);
+    background-size: cover;
+}
+.ico-googleplus{
+    background: url('img/social/googleplus/googleplus-32.png') no-repeat top left rgba(0, 0, 0, 0);
+    background-size: cover;
+}
+.ico-email{
+    background: url('img/social/email/email-32.png') no-repeat top left rgba(0, 0, 0, 0);
+    background-size: cover;
+}
+
+.container{
+    padding-bottom: 100px;
+}
+
 .container h2{
     text-align: center;
-    margin: 25px 0 70px;
+    margin: 90px 0 0;
     font-size: 40px;
+}
+
+.container h3{
+    text-align: center;
+
+    margin-bottom: 70px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 #container-header{
@@ -25,25 +56,17 @@ h1, h2, h3, h4, h5, h6{
     height: 800px;
 }
 
-#wp-logo{
-    text-align: right;
-
+#header-logo{
+    float: left;
+    margin: 260px 0 0 40px;
+}
+#header-descricao{
+    float: left;
+    margin: 300px 0 0 20px;
+    width: 700px;
 }
 
-#chamada-container h1{
-    color: #fff;
-}
-
-#chamada-container{
-    margin-top: 260px;
-}
-
-#chamada-descricao{
-    margin-top: 10px;
-
-}
-
-#chamada-descricao h1{
+#header-descricao h1{
     font-size: 42px;
     color: #FFF;
     margin-bottom: 15px;
@@ -53,31 +76,59 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.1;
 }
 
-#chamada-descricao p {
-    font-size: 16px;
+#header-descricao p {
+    font-size: 18px;
     color: #FFF;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
     width: 75%;
     margin-bottom: 25px;
 }
 
+/**********************************/
+
+#container-grupos{
+
+}
+
+#grupos{
+
+}
+
+#grupos .col-md-3{
+    text-align: center;
+}
+
+#grupos .membros{
+    margin-top: 10px;
+
+}
+
+/**********************************/
+
+#container-eventos{
+    border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
+
+}
+
+#eventos{
+
+}
+
+#eventos .col-md-4{
+    text-align: center;
+}
+
+/**********************************/
+
 #container-quem{
-    padding: 30px 0;
-    margin-top: 70px;
-    border-top: 1px solid #E5E5E5;
-    background-color: #F8F8F9;
 }
 
 #quem .row{
     margin-bottom: 70px;
 }
 
-.container .span4{
-    text-align:center;
-}
-
-.container .span3{
-    text-align:center;
+#quem .col-md-3{
+    text-align: center;
 }
 
 .wp-thumb{
@@ -104,29 +155,22 @@ h1, h2, h3, h4, h5, h6{
 .wp-desc{
     text-align: center;
 
+    margin-top: 10px;
 }
 
 .wp-desc a{
-    font-size: 14px;
-    display: block;
 }
 
 .wp-desc h6{
-    font-size: 14px;
+    font-size: 16px;
+    margin: 0;
 }
 
 .wp-desc span{
     font-size: 12px;
     font-weight: normal;
     color: #AAA;
-}
-
-#container-projetos{
-    padding: 30px 0;
-}
-
-#projetos{
-
+    display: inline;
 }
 
 #container-creditos{
