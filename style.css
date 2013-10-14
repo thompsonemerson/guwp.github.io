@@ -107,7 +107,6 @@ i{
 
 #container-eventosfuturos{
     border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
-
 }
 
 #eventosfuturos{
@@ -231,6 +230,23 @@ i{
     display: inline;
 }
 
+/**********************************/
+
+#container-projetos{
+    border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
+}
+
+#projetos{
+    text-align: center;
+}
+
+#octocat{
+    margin-right: 50px;
+}
+
+#projetos a.btn{
+
+}
 /********************************************/
 
 #container-links{
