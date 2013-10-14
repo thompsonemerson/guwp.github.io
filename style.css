@@ -105,16 +105,74 @@ i{
 
 /**********************************/
 
-#container-eventos{
+#container-eventosfuturos{
     border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
 
 }
 
-#eventos{
+#eventosfuturos{
 
 }
 
-#eventos .col-md-4{
+#eventosfuturos .col-md-4{
+    text-align: center;
+}
+
+/**********************************/
+
+#container-riodejaneiro{
+    background: url('img/meetuprio-bg.jpg') repeat-x top left transparent;
+}
+
+#riodejaneiro{
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+/**********************************/
+
+#container-belohorizonte{
+    background: url('img/wcbh2014-bg.jpg') no-repeat top left transparent;
+    background-size: cover;
+}
+
+#belohorizonte{
+    height:439px;
+    text-align: center;
+}
+
+#belohorizonte img{
+    margin-top: 30px;
+}
+
+/**********************************/
+
+#container-portoalegre{
+    background: url('img/wcpoa2013-bg.jpg') no-repeat top left transparent;
+    background-size: cover;
+}
+
+#portoalegre{
+    height: 338px;
+    text-align: center;
+}
+
+#portoalegre a{
+    margin-top: 250px;
+}
+
+/**********************************/
+
+#container-eventospassados{
+
+}
+
+#eventospassados{
+
+}
+
+#eventospassados .col-md-4{
     text-align: center;
 }
 
@@ -172,6 +230,16 @@ i{
     color: #AAA;
     display: inline;
 }
+
+/********************************************/
+
+#container-links{
+    background-color: #153E66;
+}
+
+#links{}
+
+/********************************************/
 
 #container-creditos{
 
