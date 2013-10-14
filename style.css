@@ -253,8 +253,26 @@ i{
     background-color: #153E66;
 }
 
-#links{}
+#links{
+    padding-top: 50px;
+}
 
+#links img{}
+
+#links ul{
+    padding-left: 20px;
+
+}
+
+#links h5{
+    color:#fff;
+    font-weight: bold;
+}
+
+#links a{
+    color: #fff;
+    font-size: 14px;
+}
 /********************************************/
 
 #container-creditos{
