@@ -81,14 +81,14 @@ function criaFrame(gistId){
     // Create an iframe, append it to this document where specified
     var gistFrame = document.createElement("iframe");
     gistFrame.setAttribute("width", "100%");
-    gistFrame.id = "gistFrame"+gistId;
+    gistFrame.id = "gistFrame-"+gistId;
 
     var zone = document.getElementById("gistZone");
     zone.innerHTML = "";
     zone.appendChild(gistFrame);
 
     // Create the iframe's document
-    var gistFrameHTML = '<html><body onload="parent.adjustIframeSize(document.body.scrollHeight)"><scr' + 'ipt type="text/javascript" src="https://gist.github.com/' + gistId + '.js"></sc'+'ript></body></html>';
+    var gistFrameHTML = '<html><body onload="parent.adjustIframeSize(document.body.scrollHeight,'+ gistId +')"><scr' + 'ipt type="text/javascript" src="https://gist.github.com/' + gistId + '.js"></sc'+'ript></body></html>';
 
     // Set iframe's document with a trigger for this document to adjust the height
     var gistFrameDoc = gistFrame.document;
@@ -108,7 +108,7 @@ function criaFrame(gistId){
 
 
 function adjustIframeSize(newHeight, gistId) {
-    var i = document.getElementById("gistFrame"+gistId);
+    var i = document.getElementById("gistFrame-"+gistId);
     i.style.height = parseInt(newHeight) + "px";
     console.log("size adjusted", newHeight);
 }
