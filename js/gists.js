@@ -4,7 +4,8 @@
         var ghusername = 'guwordpressbrasil';
 
         function getgists(githubuser) {
-            $.getJSON("http://gist.github.com/api/v1/json/gists/" +githubuser+ "?callback=?", function(data) {
+            //$.getJSON("http://gist.github.com/api/v1/json/gists/" +githubuser+ "?callback=?", function(data) {
+                $.getJSON("https://api.github.com/users/"+githubuser+"/gists", function(data) {
                 var gisthtml = '';
                 for (var i = 0; i < 10;) {
                     var item = data.gists[i];
