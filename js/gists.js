@@ -84,7 +84,7 @@ function criaFrame(gistId){
     gistFrame.id = "gistFrame-"+gistId;
 
     var zone = document.getElementById("gistZone");
-    zone.innerHTML = "";
+    //zone.innerHTML = "";
     zone.appendChild(gistFrame);
 
     // Create the iframe's document
