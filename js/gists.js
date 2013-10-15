@@ -24,6 +24,11 @@
             }
 
             $.ajax({
+                beforeSend: function (xhr)
+                {
+                    xhr.setRequestHeader("Authorization", "token " + ghtoken);
+                    xhr.setRequestHeader("User-Agent", ghusername);
+                },
                 url: 'https://api.github.com/gists',
                 type: 'POST',
                 dataType: 'json',
