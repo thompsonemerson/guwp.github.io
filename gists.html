@@ -38,10 +38,23 @@
         </div>
 
         <div class="row">
-            <input type="text" id="gist-description">
-            <input type="text" id="gist-filename">
-            <textarea id="gist-content"></textarea>
-            <a href="#!" class="btn btn-primary btn-lg" id="cria-gist">Cria Gist!</a>
+            <form role="form">
+                <div class="form-group">
+                    <label for="gist-description">Descrição</label>
+                    <input type="text" id="gist-description" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="gist-filename">Nome do arquivo</label>
+                    <input type="text" id="gist-filename" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="gist-content">Conteúdo do Gist</label>
+                    <textarea id="gist-content" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <a href="#!" class="btn btn-primary btn-lg" id="cria-gist">Cria Gist!</a>
+                </div>
+            </form>
         </div>
     </div>
 </div>
