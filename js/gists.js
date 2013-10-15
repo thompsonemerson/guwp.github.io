@@ -36,6 +36,7 @@
             })
             .success( function(e) {
                 console.log(e);
+                location.reload(true);
             })
             .error( function(e) {
                 console.warn("gist save error", e);
