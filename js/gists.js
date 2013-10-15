@@ -4,7 +4,7 @@
         var ghusername = 'guwordpressbrasil';
         var ghtoken = '7e89148df90b290b4953dbd58ac136b87fbbdb46';
 
-        $('#cria-gist').on('click',function(){
+        $('#cria-gist').on('click',function(e){
             e.preventDefault();
 
             var gist_description = $('#gist-description').val(),
