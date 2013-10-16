@@ -1,4 +1,17 @@
+#gists-header{
+    background-color: #3E4095;
+    margin-bottom: 50px;
+}
+
+#gists-header h2, #gists-header h3{
+    color:#fff;
+}
+
+#gists-header h3{
+    margin-bottom: 0;
+}
+
 #container-gists{
-    background-color: #
+    border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
 }
 #gists{}
