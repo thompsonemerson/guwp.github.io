@@ -1,10 +1,6 @@
 (function($){
     $(document).ready(function(){
 
-        $('.button').hadouken({
-            'enterOn' : 'hadouken'
-        });
-
         jQuery('.milestone-counter').appear(function() {
             $('.milestone-counter').each(function(){
                 dataperc = $(this).attr('data-perc'),
