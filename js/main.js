@@ -119,5 +119,5 @@
 
         });
     }
-})(jQuery);
+})(window.jQuery);
 
