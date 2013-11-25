@@ -115,14 +115,18 @@ i{
 
 /**********************************/
 
-#container-riodejaneiro{
-    background: url('img/meetuprio-bg.jpg') repeat-x top left transparent;
+#container-rio{
+    background: url('img/wcrjmeetup-bg.jpg') no-repeat top left transparent;
+    background-size: cover;
 }
 
-#riodejaneiro{
-    height: 400px;
-    position: relative;
-    z-index: 1;
+#rio{
+    height: 510px;
+    text-align: center;
+}
+
+#rio a{
+    margin-top: 250px;
 }
 
 /**********************************/
