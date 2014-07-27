@@ -146,6 +146,16 @@ header {
 .belohorizonte a { margin-top: 380px; }
 
 /*************************************************** Section #newsletter ***************************************************/
+.indicates-required span:before {
+    content: "* ";
+    display: inline-block;
+    color: red;
+    font-size: 2em;    
+    position: relative;
+    top: 9px;
+    right: 5px;
+}
+
 #mailing h2 { margin-bottom: 20px; }
 
 #mailing p { margin-top: 37px; }
