@@ -130,7 +130,7 @@ i{
 /**********************************/
 
 #container-belohorizonte{
-    background: url('img/wcbh2014-bg.jpg') no-repeat top left transparent;
+    background: url('img/wcbh2014-bg.jpg') no-repeat top center transparent;
     background-size: cover;
 }
 
@@ -139,8 +139,8 @@ i{
     text-align: center;
 }
 
-#belohorizonte img{
-    margin-top: 30px;
+#belohorizonte a{
+    margin-top: 380px;
 }
 
 /**********************************/
@@ -309,3 +309,5 @@ i{
 #facebook{
 
 }
+
+#belohorizonte { overflow: hidden; }
