@@ -16,13 +16,11 @@ i {
 .container { padding-bottom: 100px; }
 
 .container h2 {
-    text-align: center;
     margin: 90px 0 0;
     font-size: 40px;
 }
 
 .container h3 {
-    text-align: center;
     margin-bottom: 70px;
     font-size: 16px;
     line-height: 24px;
@@ -75,8 +73,6 @@ i {
     background-color: #F8F8F9;
 }
 
-#eventosfuturos .col-md-4 { text-align: center; }
-
 /*************************************************** Section #organizadores ***************************************************/
 .wp-thumb-round img {
     -webkit-border-radius: 50%;
@@ -87,7 +83,6 @@ i {
 }
 
 .wp-desc {
-    text-align: center;
     margin-top: 10px;
 }
 
@@ -105,30 +100,21 @@ i {
 
 #quem .row { margin-bottom: 70px; }
 
-#quem .col-md-3 { text-align: center; }
-
 /*************************************************** Section #projetos ***************************************************/
 #container-projetos {
     border-top: 1px solid #E5E5E5; 
     background-color: #F8F8F9;
 }
 
-#projetos { text-align: center; }
-
 #octocat { margin-right: 50px; }
 
 /*************************************************** Section #eventos-passados ***************************************************/
-#eventospassados .col-md-4 { text-align: center; }
-
 #container-rio {
     background: url('img/wcrjmeetup-bg.jpg') no-repeat top left transparent;
     background-size: cover;
 }
 
-#rio {
-    height: 422px;
-    text-align: center;
-}
+#rio { height: 422px; }
 
 #rio a { margin-top: 250px; }
 
@@ -137,10 +123,7 @@ i {
     background-size: cover;
 }
 
-#belohorizonte {
-    height:439px;
-    text-align: center;
-}
+#belohorizonte { height:439px; }
 
 #belohorizonte a { margin-top: 380px; }
 
@@ -149,10 +132,7 @@ i {
     background-size: cover;
 }
 
-#portoalegre {
-    height: 338px;
-    text-align: center;
-}
+#portoalegre { height: 338px; }
 
 #portoalegre a { margin-top: 250px; }
 
@@ -181,7 +161,6 @@ i {
 
 /*************************************************** Section #creditos ***************************************************/
 #creditos {
-    text-align: center;
     padding: 8px 0;
     font-size: 12px;
 }
