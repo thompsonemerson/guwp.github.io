@@ -27,6 +27,11 @@ i {
 }
 
 /*************************************************** Header Section ***************************************************/
+header {
+    background: url('img/content-header-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
 #header { height: 860px; }
 
 #header .row { margin-top: 300px; }
@@ -47,11 +52,6 @@ i {
     font-size: 18px;
     color: #FFF;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
-}
-
-#container-header {
-    background: url('img/content-header-bg.jpg') 50% 50% no-repeat;
-    background-size: cover;
 }
 
 /*************************************************** Section #grupos ***************************************************/
