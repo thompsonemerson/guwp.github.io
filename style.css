@@ -1,3 +1,4 @@
+/*************************************************** Estilos Gerais ***************************************************/
 body {
     font-size: 16px;
     color: #333;
@@ -11,14 +12,6 @@ i {
     height: 22px;
     vertical-align: top;
 }
-
-*[class^=ico-] { background: cover; }
-
-.ico-facebook { background: url('img/social/facebook/facebook-32.png') no-repeat top left rgba(0, 0, 0, 0); }
-
-.ico-googleplus { background: url('img/social/googleplus/googleplus-32.png') no-repeat top left rgba(0, 0, 0, 0); }
-
-.ico-email { background: url('img/social/email/email-32.png') no-repeat top left rgba(0, 0, 0, 0); }
 
 .container { padding-bottom: 100px; }
 
@@ -35,11 +28,9 @@ i {
     line-height: 24px;
 }
 
-#container-header {
-    background: url('img/content-header-bg.jpg') 50% 50% no-repeat;
-    background-size: cover;
-}
+#container-links { background-color: #3E4095; }
 
+/*************************************************** Header Section ***************************************************/
 #header { height: 860px; }
 
 #header .row { margin-top: 300px; }
@@ -62,73 +53,31 @@ i {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-/**********************************/
+#container-header {
+    background: url('img/content-header-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+/*************************************************** Section #grupos ***************************************************/
+*[class^=ico-] { background: cover; }
+
+.ico-facebook { background: url('img/social/facebook/facebook-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+
+.ico-googleplus { background: url('img/social/googleplus/googleplus-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+
+.ico-email { background: url('img/social/email/email-32.png') no-repeat top left rgba(0, 0, 0, 0); }
 
 #grupos .membros { margin-top: 10px; }
 
-/**********************************/
-
-#container-eventosfuturos { border-top: 1px solid #E5E5E5;  background-color: #F8F8F9; }
+/*************************************************** Section #proximos-eventos ***************************************************/
+#container-eventosfuturos {
+    border-top: 1px solid #E5E5E5; 
+    background-color: #F8F8F9;
+}
 
 #eventosfuturos .col-md-4 { text-align: center; }
 
-/**********************************/
-
-#container-rio {
-    background: url('img/wcrjmeetup-bg.jpg') no-repeat top left transparent;
-    background-size: cover;
-}
-
-#rio {
-    height: 422px;
-    text-align: center;
-}
-
-#rio a { margin-top: 250px; }
-
-/**********************************/
-
-#container-belohorizonte {
-    background: url('img/wcbh2014-bg.jpg') no-repeat top center transparent;
-    background-size: cover;
-}
-
-#belohorizonte {
-    height:439px;
-    text-align: center;
-}
-
-#belohorizonte a { margin-top: 380px; }
-
-/**********************************/
-
-#container-portoalegre {
-    background: url('img/wcpoa2013-bg.jpg') no-repeat top left transparent;
-    background-size: cover;
-}
-
-#portoalegre {
-    height: 338px;
-    text-align: center;
-}
-
-#portoalegre a { margin-top: 250px; }
-
-/**********************************/
-
-#eventospassados .col-md-4 { text-align: center; }
-
-/**********************************/
-
-#quem .row { margin-bottom: 70px; }
-
-#quem .col-md-3 { text-align: center; }
-
-.wp-thumb img {
-    border: 1px solid #ccc;
-    width: 200px;
-}
-
+/*************************************************** Section #organizadores ***************************************************/
 .wp-thumb-round img {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -154,8 +103,11 @@ i {
     display: inline;
 }
 
-/**********************************/
+#quem .row { margin-bottom: 70px; }
 
+#quem .col-md-3 { text-align: center; }
+
+/*************************************************** Section #projetos ***************************************************/
 #container-projetos {
     border-top: 1px solid #E5E5E5; 
     background-color: #F8F8F9;
@@ -165,10 +117,51 @@ i {
 
 #octocat { margin-right: 50px; }
 
-/********************************************/
+/*************************************************** Section #eventos-passados ***************************************************/
+#eventospassados .col-md-4 { text-align: center; }
 
-#container-links { background-color: #3E4095; }
+#container-rio {
+    background: url('img/wcrjmeetup-bg.jpg') no-repeat top left transparent;
+    background-size: cover;
+}
 
+#rio {
+    height: 422px;
+    text-align: center;
+}
+
+#rio a { margin-top: 250px; }
+
+#container-belohorizonte {
+    background: url('img/wcbh2014-bg.jpg') no-repeat top center transparent;
+    background-size: cover;
+}
+
+#belohorizonte {
+    height:439px;
+    text-align: center;
+}
+
+#belohorizonte a { margin-top: 380px; }
+
+#container-portoalegre {
+    background: url('img/wcpoa2013-bg.jpg') no-repeat top left transparent;
+    background-size: cover;
+}
+
+#portoalegre {
+    height: 338px;
+    text-align: center;
+}
+
+#portoalegre a { margin-top: 250px; }
+
+/*************************************************** Section #newsletter ***************************************************/
+#mailing h2 { margin-bottom: 20px; }
+
+#mailing p { margin-top: 37px; }
+
+/*************************************************** Section #links ***************************************************/
 #links {
     color: #fff;
     padding-top: 50px;
@@ -186,21 +179,9 @@ i {
     font-size: 14px;
 }
 
-
-/********************************************/
-
-#mailing h2 { margin-bottom: 20px; }
-
-#mailing p { margin-top: 37px; }
-
-/********************************************/
-
+/*************************************************** Section #creditos ***************************************************/
 #creditos {
     text-align: center;
     padding: 8px 0;
     font-size: 12px;
 }
-
-/********************************************/
-
-#belohorizonte { overflow: hidden; }
