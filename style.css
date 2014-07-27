@@ -55,13 +55,18 @@ i {
 }
 
 /*************************************************** Section #grupos ***************************************************/
-*[class^=ico-] { background: cover; }
+*[class^=ico-] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: rgba(0, 0, 0, 0);
+}
 
-.ico-facebook { background: url('img/social/facebook/facebook-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+.ico-facebook { background-image: url('img/social/facebook/facebook-32.png'); }
 
-.ico-googleplus { background: url('img/social/googleplus/googleplus-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+.ico-googleplus { background-image: url('img/social/googleplus/googleplus-32.png'); }
 
-.ico-email { background: url('img/social/email/email-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+.ico-email { background-image: url('img/social/email/email-32.png'); }
 
 #grupos .membros { margin-top: 10px; }
 
