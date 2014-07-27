@@ -3,66 +3,52 @@ body {
     color: #333;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Open Sans', sans-serif;
-}
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; }
 
-i{
+i {
     display: inline-block;
     width: 25px;
     height: 22px;
     vertical-align: top;
 }
 
-.ico-facebook{
-    background: url('img/social/facebook/facebook-32.png') no-repeat top left rgba(0, 0, 0, 0);
-    background-size: cover;
-}
-.ico-googleplus{
-    background: url('img/social/googleplus/googleplus-32.png') no-repeat top left rgba(0, 0, 0, 0);
-    background-size: cover;
-}
+*[class^=ico-] { background: cover; }
+
+.ico-facebook { background: url('img/social/facebook/facebook-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+
+.ico-googleplus { background: url('img/social/googleplus/googleplus-32.png') no-repeat top left rgba(0, 0, 0, 0); }
+
 .ico-email{
-    background: url('img/social/email/email-32.png') no-repeat top left rgba(0, 0, 0, 0);
-    background-size: cover;
+    background: url('img/social/email/email-32.png') no-repeat top left rgba(0, 0, 0, 0);    
 }
 
-.container{
-    padding-bottom: 100px;
-}
+.container { padding-bottom: 100px; }
 
-.container h2{
+.container h2 {
     text-align: center;
     margin: 90px 0 0;
     font-size: 40px;
 }
 
-.container h3{
+.container h3 {
     text-align: center;
-
     margin-bottom: 70px;
     font-size: 16px;
     line-height: 24px;
 }
 
-#container-header{
+#container-header {
     background: url('img/content-header-bg.jpg') 50% 50% no-repeat;
     background-size: cover;
 }
 
-#header{
-    height: 860px;
-}
+#header { height: 860px; }
 
-#header .row{
-    margin-top: 300px;
-}
+#header .row { margin-top: 300px; }
 
-#header img{
-    margin:0 auto;
-}
+#header img { margin:0 auto; }
 
-#header h1{
+#header h1 {
     font-size: 42px;
     color: #FFF;
     margin: 30px 0 15px;
@@ -80,118 +66,72 @@ i{
 
 /**********************************/
 
-#container-grupos{
-
-}
-
-#grupos .membros{
-    margin-top: 10px;
-
-}
+#grupos .membros { margin-top: 10px; }
 
 /**********************************/
 
-#container-eventosfuturos{
-    border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
-}
+#container-eventosfuturos { border-top: 1px solid #E5E5E5;  background-color: #F8F8F9; }
 
-#eventosfuturos{
-
-}
-
-#eventosfuturos .col-md-4{
-    text-align: center;
-}
+#eventosfuturos .col-md-4 { text-align: center; }
 
 /**********************************/
 
-#container-rio{
+#container-rio {
     background: url('img/wcrjmeetup-bg.jpg') no-repeat top left transparent;
     background-size: cover;
 }
 
-#rio{
+#rio {
     height: 422px;
     text-align: center;
 }
 
-#rio a{
-    margin-top: 250px;
-}
+#rio a { margin-top: 250px; }
 
 /**********************************/
 
-#container-belohorizonte{
+#container-belohorizonte {
     background: url('img/wcbh2014-bg.jpg') no-repeat top center transparent;
     background-size: cover;
 }
 
-#belohorizonte{
+#belohorizonte {
     height:439px;
     text-align: center;
 }
 
-#belohorizonte a{
-    margin-top: 380px;
-}
+#belohorizonte a { margin-top: 380px; }
 
 /**********************************/
 
-#container-portoalegre{
+#container-portoalegre {
     background: url('img/wcpoa2013-bg.jpg') no-repeat top left transparent;
     background-size: cover;
 }
 
-#portoalegre{
+#portoalegre {
     height: 338px;
     text-align: center;
 }
 
-#portoalegre a{
-    margin-top: 250px;
-}
+#portoalegre a { margin-top: 250px; }
 
 /**********************************/
 
-#container-eventospassados{
-
-}
-
-#eventospassados{
-
-}
-
-#eventospassados .col-md-4{
-    text-align: center;
-}
+#eventospassados .col-md-4 { text-align: center; }
 
 /**********************************/
 
-#container-quem{
-}
+#quem .row { margin-bottom: 70px; }
 
-#quem .row{
-    margin-bottom: 70px;
-}
+#quem .col-md-3 { text-align: center; }
 
-#quem .col-md-3{
-    text-align: center;
-}
-
-.wp-thumb{
-
-}
-
-.wp-thumb img{
+.wp-thumb img {
     border: 1px solid #ccc;
     width: 200px;
 }
 
-.wp-thumb-round{
-
-}
-
-.wp-thumb-round img{
+.wp-thumb-round img {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -199,21 +139,17 @@ i{
     width: 200px;
 }
 
-.wp-desc{
+.wp-desc {
     text-align: center;
-
     margin-top: 10px;
 }
 
-.wp-desc a{
-}
-
-.wp-desc h6{
+.wp-desc h6 {
     font-size: 16px;
     margin: 0;
 }
 
-.wp-desc span{
+.wp-desc span {
     font-size: 12px;
     font-weight: normal;
     color: #AAA;
@@ -222,45 +158,32 @@ i{
 
 /**********************************/
 
-#container-projetos{
-    border-top: 1px solid #E5E5E5;  background-color: #F8F8F9;
+#container-projetos {
+    border-top: 1px solid #E5E5E5; 
+    background-color: #F8F8F9;
 }
 
-#projetos{
-    text-align: center;
-}
+#projetos { text-align: center; }
 
-#octocat{
-    margin-right: 50px;
-}
+#octocat { margin-right: 50px; }
 
-#projetos a.btn{
-
-}
 /********************************************/
 
-#container-links{
-    background-color: #3E4095;
-}
+#container-links { background-color: #3E4095; }
 
-#links{
+#links {
     color: #fff;
     padding-top: 50px;
 }
 
-#links img{}
+#links ul { padding-left: 20px; }
 
-#links ul{
-    padding-left: 20px;
-
-}
-
-#links h5{
+#links h5 {
     color:#fff;
     font-weight: bold;
 }
 
-#links a{
+#links a {
     color: #fff;
     font-size: 14px;
 }
@@ -268,38 +191,18 @@ i{
 
 /********************************************/
 
-#container-mailing{
+#mailing h2 { margin-bottom: 20px; }
 
-}
-
-#mailing{
-
-}
-
-#mailing h2{
-    margin-bottom: 20px;
-}
-
-#mailing p{
-    margin-top: 37px;
-}
+#mailing p { margin-top: 37px; }
 
 /********************************************/
 
-#container-creditos{
-
-}
-
-#creditos{
+#creditos {
     text-align: center;
     padding: 8px 0;
     font-size: 12px;
 }
 
 /********************************************/
-
-#facebook{
-
-}
 
 #belohorizonte { overflow: hidden; }
