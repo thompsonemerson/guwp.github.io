@@ -26,8 +26,6 @@ i {
     line-height: 24px;
 }
 
-#container-links { background-color: #3E4095; }
-
 /*************************************************** Header Section ***************************************************/
 #header { height: 860px; }
 
@@ -109,32 +107,38 @@ i {
 #octocat { margin-right: 50px; }
 
 /*************************************************** Section #eventos-passados ***************************************************/
-#container-rio {
-    background: url('img/wcrjmeetup-bg.jpg') no-repeat top left transparent;
-    background-size: cover;
+.lista-eventos {
+    list-style: none;
+    padding: 0;
 }
 
-#rio { height: 422px; }
-
-#rio a { margin-top: 250px; }
-
-#container-belohorizonte {
-    background: url('img/wcbh2014-bg.jpg') no-repeat top center transparent;
+.lista-eventos .evento {
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
 }
 
-#belohorizonte { height:439px; }
-
-#belohorizonte a { margin-top: 380px; }
-
-#container-portoalegre {
-    background: url('img/wcpoa2013-bg.jpg') no-repeat top left transparent;
-    background-size: cover;
+.portoalegre {
+    background-image: url('img/wcpoa2013-bg.jpg');
+    height: 338px;
 }
 
-#portoalegre { height: 338px; }
+.portoalegre a { margin-top: 250px; }
 
-#portoalegre a { margin-top: 250px; }
+.rio {
+    background-image: url('img/wcrjmeetup-bg.jpg');
+    height: 422px;
+}
+
+.rio a { margin-top: 250px; }
+
+.belohorizonte {
+    background-image: url('img/wcbh2014-bg.jpg');
+    height: 439px;
+}
+
+.belohorizonte a { margin-top: 380px; }
 
 /*************************************************** Section #newsletter ***************************************************/
 #mailing h2 { margin-bottom: 20px; }
@@ -142,6 +146,8 @@ i {
 #mailing p { margin-top: 37px; }
 
 /*************************************************** Section #links ***************************************************/
+#container-links { background-color: #3E4095; }
+
 #links {
     color: #fff;
     padding-top: 50px;
