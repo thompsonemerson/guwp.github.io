@@ -121,7 +121,7 @@ header {
 .lista-eventos .evento {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top;
     background-color: transparent;
 }
 
