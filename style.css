@@ -71,6 +71,8 @@ header {
 
 #grupos .membros { margin-top: 10px; }
 
+#grupos .row { margin-bottom: 70px; }
+
 /*************************************************** Section #proximos-eventos ***************************************************/
 #container-eventosfuturos {
     border-top: 1px solid #E5E5E5; 
