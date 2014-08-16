@@ -1,7 +1,32 @@
-(function($){
+( function( $, _ ){
     $(document).ready(function(){
 
-        jQuery('.milestone-counter').appear(function() {
+        /**
+         * Randomly Arrange the Organizers
+         */
+        var $organizersList = $( '.organizers-list' ),
+            $organizers = $organizersList.children( '.col-md-3' ),
+            avatarSize = $organizersList.find( '.wp-thumb-round img' ).width(),
+            heights = [];
+
+        $organizers.each( function() {
+            heights.push( $( this ).height() + avatarSize );
+        } ).height( _.max( heights ) ).detach().sort(function(a,b){
+            // Get a random number between 0 and 10
+            var temp = parseInt( Math.random() * 10, 10 ),
+                isOddOrEven = temp%2,
+                isPosOrNeg = temp > 5 ? 1 : -1;
+
+            // Return -1, 0, or +1
+            return ( isOddOrEven*isPosOrNeg );
+        });
+
+        $organizers.appendTo( $organizersList );
+
+        /**
+         * Milestone counters
+         */
+        $('.milestone-counter').appear(function() {
             $('.milestone-counter').each(function(){
                 dataperc = $(this).attr('data-perc'),
                 $(this).find('.milestone-count').delay(6000).countTo({
@@ -14,4 +39,4 @@
         });
 
     });
-})(window.jQuery);
+} )( window.jQuery, window._ );
