@@ -146,6 +146,13 @@ header {
     height: 439px;
 }
 
+.hangout {
+    background-image: url('img/wordpress-40.png');
+    height: 439px;
+}
+
+.hangout a{ margin-top: 205px; }
+
 .belohorizonte a { margin-top: 380px; }
 
 /*************************************************** Section #newsletter ***************************************************/
