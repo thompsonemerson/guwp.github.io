@@ -14,6 +14,18 @@ i {
     vertical-align: top;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe,
+embed,
+object {
+    max-width: 100%;
+    display: block;
+}
+
 .italic{
     font-style: italic
 }
@@ -37,18 +49,9 @@ header {
     background-size: cover;
 }
 
-.header_live_bg{
-    background: #0B4903;
-    background-size: cover;
-}
-
 #header { height: 860px; }
 
-#header_live { height: 340px; }
-
 #header .row { margin-top: 300px; }
-
-#header_live .row { margin-top: 50px; }
 
 #header img { margin:0 auto; }
 
@@ -62,21 +65,6 @@ header {
     line-height: 1.1;
 }
 
-#header_live h1 {
-    font-size: 42px;
-    color: #FFF;
-    margin: 30px 0 15px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
-    font-weight: 500;
-    letter-spacing: -2px;
-    line-height: 1.1;
-}
-
-#header p {
-    font-size: 18px;
-    color: #FFF;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
-}
 
 /*************************************************** Section #grupos ***************************************************/
 *[class^=ico-] {
@@ -222,4 +210,99 @@ header {
 #creditos {
     padding: 8px 0;
     font-size: 12px;
+}
+
+
+
+/**
+ * Live Events page
+ */
+
+.header_live_bg{
+    background: #0B4903;
+    background-size: cover;
+}
+
+#header_live {
+    height: auto;
+    padding: 25px 0;
+    margin-bottom: 30px;
+}
+
+#header_live .row {
+    margin-top: 0;
+}
+
+#header_live .img-responsive {
+    margin: 0 auto;
+}
+
+#header_live h1 {
+    font-size: 42px;
+    color: #fff;
+    margin: 10px 0 15px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    letter-spacing: -2px;
+    line-height: 1.4em;
+}
+
+#header_live h2 {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#header_live h2 a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    #header_live {
+        text-align: center;
+    }
+    .live-content .col-wp-sidebar h3 {
+        text-align: center;
+    }
+}
+
+#header p {
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.live-content {
+
+}
+
+
+.live-content .col-wp-video {
+    margin-top: 25px
+}
+
+.live-content .col-wp-video h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.live-content .col-wp-video .wp-description {
+    margin-top: 25px;
+}
+
+.live-content .col-wp-sidebar {
+    margin-top: 25px
+}
+
+.live-content .col-wp-sidebar iframe {
+    margin: 0 auto;
+}
+
+.live-content .col-wp-sidebar h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
 }

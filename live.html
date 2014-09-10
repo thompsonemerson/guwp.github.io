@@ -31,39 +31,41 @@
 <header class="header_live_bg">
     <div id="header_live" class="container">
         <div class="row">
-            <div class="col-lg-3 col-lg-offset-2 col-sm-4 col-xs-12">
+            <div class="col-md-3">
                 <img src="img/wp-logo-header.png" class="img-responsive" width="150px">
             </div>
-            <div class="col-lg-7 col-sm-8 col-xs-12">
+            <div class="col-md-9">
                 <h1>WordPress Brasil Live</h1>
+                <h2>Assista as transmissões ao vivo. Após o término, o vídeo será disponabilizado automaticamente <a href="https://www.youtube.com/user/guwpbrasil" target="_blank"> em nosso canal do Youtube</a></h2>
             </div>
         </div>
     </div>
 </header>
 
-<section id="grupos">   
-    <div class="container text-center">
-        <h2>Live</h2>
-        <h3>Assista as transmissões ao vivo. Após o termino, o vídeo será disponabilizado automaticamente <a href="https://www.youtube.com/user/guwpbrasil" target="_blank"> em nosso canal do Youtube</a></h3>
-
+<section class='live-content'>   
+    <div class="container">
         <div class="row">
-            <iframe width="640" height="360" src="//www.youtube.com/embed/rnHq5vaXcq0" frameborder="0" allowfullscreen></iframe>
+            <div class='col-md-8 col-wp-video'>
+                <h3>Novidades do WordPress 4.0 "Benny"</h3>
+                <iframe class='responsive-video' src="//www.youtube.com/embed/rnHq5vaXcq0?modesbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <div class='wp-description'>
+                    <p>Versão 4.0 do WordPress, nomeada “Benny” em honra ao clarinetista de jazz e lider de banda Benny Gooman, está disponível para o download ou atualização no seu painel do WordPress.</p>
+                    <p>No entanto a versão 4.0 é apenas um outro número após o 3.9 e antes do 4.1, foi colocado um pouco mais de refinamento nesta versão. Este lançamento vem com uma melhor experiência de escrita e controle em geral.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-wp-sidebar">
+                <h3>Interaja no Twitter com a Hashtag</h3>
+                <div class="row">
+                    <a class="twitter-timeline" href="https://twitter.com/hashtag/wp40br" data-widget-id="509527705650335746">#wp40br Tweets</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
         </div><!-- .row -->
     </div>
 </section>
 
-<section id="proximos-eventos">
-    <div id="container-projetos" >
-        <div class="container text-center">
-            <h2>Participe</h2>
-            <h3>Interaja no Twitter com a Hashtag #wp40br</h3>
-            <div class="row">
-                <a class="twitter-timeline" href="https://twitter.com/hashtag/wp40br" data-widget-id="509527705650335746">#wp40br Tweets</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section id="links">
     <div id="container-links">
         <div id="links" class="container">
@@ -142,6 +144,7 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
     <script src="js/vendor/lodash.compat.min.js"></script>
+    <script src="js/vendor/jquery.fitvids.js"></script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/SmoothScroll.js"></script>
