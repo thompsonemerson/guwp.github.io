@@ -14,6 +14,10 @@ i {
     vertical-align: top;
 }
 
+.italic{
+    font-style: italic
+}
+
 .container { padding-bottom: 100px; }
 
 .container h2 {
