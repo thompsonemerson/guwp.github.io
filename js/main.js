@@ -23,6 +23,8 @@
 
         $organizers.prependTo( $organizersList );
 
+        $(".container").fitVids();
+
         /**
          * Milestone counters
          */
