@@ -280,6 +280,7 @@ header {
 
 }
 
+
 .live-content .col-wp-video {
     margin-top: 25px
 }
@@ -287,6 +288,10 @@ header {
 .live-content .col-wp-video h3 {
     font-size: 20px;
     margin: 0 0 10px;
+}
+
+.live-content .col-wp-video .wp-description {
+    margin-top: 25px;
 }
 
 .live-content .col-wp-sidebar {
