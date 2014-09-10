@@ -5,12 +5,12 @@
          * Randomly Arrange the Organizers
          */
         var $organizersList = $( '.organizers-list' ),
-            $organizers = $organizersList.children( '.col-md-3' ),
+            $organizers = $organizersList.children( '.member' ),
             avatarSize = $organizersList.find( '.wp-thumb-round img' ).width(),
             heights = [];
 
         $organizers.each( function() {
-            heights.push( $( this ).height() + avatarSize );
+            heights.push( $( this ).find( '.wp-desc' ).outerHeight( true ) + avatarSize );
         } ).height( _.max( heights ) ).detach().sort(function(a,b){
             // Get a random number between 0 and 10
             var temp = parseInt( Math.random() * 10, 10 ),
@@ -21,7 +21,7 @@
             return ( isOddOrEven*isPosOrNeg );
         });
 
-        $organizers.appendTo( $organizersList );
+        $organizers.prependTo( $organizersList );
 
         /**
          * Milestone counters

@@ -33,7 +33,7 @@ i {
 
 /*************************************************** Header Section ***************************************************/
 header {
-    background: url('img/content-header-bg.jpg') 50% 50% no-repeat;
+    background: url('../img/content-header-bg.jpg') 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -86,11 +86,11 @@ header {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.ico-facebook { background-image: url('img/social/facebook/facebook-32.png'); }
+.ico-facebook { background-image: url('../img/social/facebook/facebook-32.png'); }
 
-.ico-googleplus { background-image: url('img/social/googleplus/googleplus-32.png'); }
+.ico-googleplus { background-image: url('../img/social/googleplus/googleplus-32.png'); }
 
-.ico-email { background-image: url('img/social/email/email-32.png'); }
+.ico-email { background-image: url('../img/social/email/email-32.png'); }
 
 #grupos .membros { margin-top: 10px; }
 
@@ -112,7 +112,7 @@ header {
 }
 
 .wp-desc {
-    margin-top: 10px;
+    margin: 15px 0;
 }
 
 .wp-desc h6 {
@@ -126,8 +126,6 @@ header {
     color: #AAA;
     display: inline;
 }
-
-#quem .row { margin-bottom: 70px; }
 
 /*************************************************** Section #projetos ***************************************************/
 #container-projetos {
@@ -151,26 +149,26 @@ header {
 }
 
 .portoalegre {
-    background-image: url('img/wcpoa2013-bg.jpg');
+    background-image: url('../img/wcpoa2013-bg.jpg');
     height: 338px;
 }
 
 .portoalegre a { margin-top: 250px; }
 
 .rio {
-    background-image: url('img/wcrjmeetup-bg.jpg');
+    background-image: url('../img/wcrjmeetup-bg.jpg');
     height: 422px;
 }
 
 .rio a { margin-top: 250px; }
 
 .belohorizonte {
-    background-image: url('img/wcbh2014-bg.jpg');
+    background-image: url('../img/wcbh2014-bg.jpg');
     height: 439px;
 }
 
 .hangout {
-    background-image: url('img/wordpress-40.png');
+    background-image: url('../img/wordpress-40.png');
     height: 439px;
 }
 
