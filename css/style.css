@@ -301,3 +301,7 @@ header {
     font-size: 20px;
     margin: 0 0 10px;
 }
+
+.live-content .wp-description {
+    margin-top: 20px;
+}
