@@ -174,6 +174,13 @@ header {
 
 .belohorizonte a { margin-top: 380px; }
 
+.saopaulo {
+    background-image: url('../img/wordcamp-saopaulo-2014.jpg');
+    height: 422px;
+}
+
+.saopaulo a { margin-top: 310px; }
+
 /*************************************************** Section #newsletter ***************************************************/
 .indicates-required span:before {
     content: "* ";
