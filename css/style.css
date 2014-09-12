@@ -150,12 +150,18 @@ header {
 
 .wordcamp_rj_2014 {
     background-image: url('../img/bg-wordcamp-rj-2014.jpg');
+}
+
+.wordcamp_rj_2014 .container {
     height: 422px;
+    position: relative;
 }
 
 .wordcamp_rj_2014 a {
-    margin-top: 220px;
-    margin-left: 800px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 40px;
 }
 
 .rio a { margin-top: 250px; }
