@@ -49,9 +49,9 @@ header {
     background-size: cover;
 }
 
-#header { height: 860px; }
+#header { height: 500px; }
 
-#header .row { margin-top: 300px; }
+#header .row { margin-top: 125px; }
 
 #header img { margin:0 auto; }
 
