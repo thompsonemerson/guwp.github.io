@@ -90,6 +90,9 @@ header {
     background-color: #F8F8F9;
 }
 
+.wordcamp_salvador_2014 { background: url("../img/WordCamp-Salvador-2014.jpg"); height:422px; }
+.wordcamp_salvador_2014 a{ margin-top: 310px; }
+
 /*************************************************** Section #organizadores ***************************************************/
 .wp-thumb-round img {
     -webkit-border-radius: 50%;
