@@ -45,13 +45,13 @@ object {
 
 /*************************************************** Header Section ***************************************************/
 header {
-    background: url('../img/content-header-bg.jpg') 50% 50% no-repeat;
+    background: url('../img/bg-group.jpg') 50% 15% no-repeat;
     background-size: cover;
 }
 
 #header { height: 500px; }
 
-#header .row { margin-top: 125px; }
+#header .row { margin-top: 270px; }
 
 #header img { margin:0 auto; }
 
