@@ -46,7 +46,11 @@ object {
 /*************************************************** Header Section ***************************************************/
 header {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url('../img/bg-group.jpg') 50% 0% no-repeat;
+=======
+    background: url('../img/content-header-bg.jpg') 50% 50% no-repeat;
+>>>>>>> parent of 59d6624... novo bg do header
 =======
     background: url('../img/content-header-bg.jpg') 50% 50% no-repeat;
 >>>>>>> parent of 59d6624... novo bg do header
@@ -56,7 +60,11 @@ header {
 #header { height: 500px; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #header .row { margin-top: 115px; }
+=======
+#header .row { margin-top: 125px; }
+>>>>>>> parent of 59d6624... novo bg do header
 =======
 #header .row { margin-top: 125px; }
 >>>>>>> parent of 59d6624... novo bg do header
