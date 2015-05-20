@@ -87,7 +87,7 @@ header {
 
 /*************************************************** Section #proximos-eventos ***************************************************/
 #container-eventosfuturos {
-    border-top: 1px solid #E5E5E5; 
+    border-top: 1px solid #E5E5E5;
     background-color: #F8F8F9;
 }
 
@@ -121,7 +121,7 @@ header {
 
 /*************************************************** Section #projetos ***************************************************/
 #container-projetos {
-    border-top: 1px solid #E5E5E5; 
+    border-top: 1px solid #E5E5E5;
     background-color: #F8F8F9;
 }
 
@@ -154,6 +154,22 @@ header {
 
 .wordcamp_rj_2014 {
     background-image: url('../img/bg-wordcamp-rj-2014.jpg');
+}
+
+.wordcamp_belohorizonte_2015 {
+    background-image: url('../img/bg-wordcamp-bh-2015.png');
+}
+
+.wordcamp_belohorizonte_2015 .container {
+    height: 475px;
+    position: relative;
+}
+
+.wordcamp_belohorizonte_2015 a {
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 30px;
 }
 
 .wordcamp_rj_2014 .container {
@@ -196,7 +212,7 @@ header {
     content: "* ";
     display: inline-block;
     color: red;
-    font-size: 2em;    
+    font-size: 2em;
     position: relative;
     top: 9px;
     right: 5px;
